@@ -1,0 +1,77 @@
+<meta charset="UTF-8">
+
+<meta name="autor" content="Blenda Bomfim Silva Moreira Leite-1600971">
+<meta name="autor" content="Carlos Henrique Sousa Rodrigues-1601176">
+<meta name="autor" content="André Tagino-1700167">
+<meta name="autor" content="Vinícius Tagino-1700178">
+<meta name="autor" content="Gabriel Almeida de Alencar-1700426">
+<meta name="autor" content="Melissa de Souza Amélia-1700271">
+
+<style type="text/css">
+  body {
+    background-color: #FFF8DC }
+  </style>
+
+
+<p><strong>1) Da lista de tecnologias abaixo, aponte qual é executada no cliente e qual é executada no servidor </strong></p>
+<table border="1">
+	<tr><th>Tecnologia</th><th>Cliente</th><th>Servidor</th></tr>
+	<tr><td>Apache</td><td>&nbsp;</td><td>X</td></tr>
+	<tr><td>JavaScript</td><td>X</td><td>&nbsp;</td></tr>
+	<tr><td>Tomcat</td><td>&nbsp;</td><td>X</td></tr>
+	<tr><td>Java</td><td>&nbsp;</td><td>X</td></tr>
+	<tr><td>HTML</td><td>X</td><td>&nbsp;</td></tr>
+	<tr><td>PHP</td><td>&nbsp;</td><td>X</td></tr>
+	<tr><td>Apache</td><td>&nbsp;</td><td>X</td></tr>
+	<tr><td>MySQL</td><td>&nbsp;</td><td>X</td></tr>
+	<tr><td>XHTML</td><td>X</td><td>&nbsp;</td></tr>
+	<tr><td>MongoDB</td><td>&nbsp;</td><td>X</td></tr>
+	<tr><td>CSS</td><td>X</td><td>&nbsp;</td></tr>
+</table>
+
+<p><strong>2) Aponte as regiões da URL <code>http://www.impacta.com.br/eventos/default.php</code></strong></p>
+
+<p>RESPOSTA: 
+<br>
+
+<strong style="color: red;">http</strong> é o Esquema/Protocolo 
+<br>
+<strong style="color: purple;">impacta.com.br</strong> é o domínio da rede que hospeda o recurso desejado
+<br>
+<strong style="color: green;">eventos</strong> é o caminho/pasta interna até o recurso
+<br>
+<strong style="color: blue;">default.php</strong> recurso requisitado
+</p>
+<p><strong>3) Quais outros protocolos de comunicação para troca de mensagens via internet existem? Pesquise e cite 3 exemplos, descrevendo sua função e aplicação.</strong></p>
+<ul>
+	<li>
+		<p>
+			PROTOCOLO 1: <strong>TCP</strong> 
+			<br>
+			<strong>Descrição:</strong> responsável pela transferência dos dados propriamente ditos. É um protocolo orientado a conexão, ou seja, efetua a transferência dos dados e verifica a integridade dos mesmos até o destino. Caso ocorra alguma perda durante o percurso eles serão retransmitidos.
+		</p>
+	</li>
+	<li>
+		<p>
+			PROTOCOLO 2: <strong>UDP</strong>
+			<br>
+			<strong>Descrição:</strong> UDP – User Datagram Protocol: responsável pela transferência dos dados, porém não orientado a conexão, ou seja, não verifica se os dados chegaram ou não ao destino.
+		</p>
+	</li>
+	<li>
+		<p>
+			PROTOCOLO 3: <strong>ICMP</strong>
+			<br>
+			<strong>Descrição:</strong> ICMP – Internet Control Message Protocol: protocolo integrante do protocolo IP, usado pelos roteadores para informar a máquina transmissora a ocorrência de um erro com o datagrama enviado. Ele não se preocupa em corrigir o erro nem tampouco em verificar a integridade dos datagramas que circulam pela rede.
+		</p>
+	</li>
+</ul>
+
+<p><strong>4) Explore os sites de hospedagem do  (<a href="http://www.uolhost.uol.com.br/" target="_blank">http://www.uolhost.uol.com.br/</a>) e da LOCAWEB (<a href="https://www.locaweb.com.br" target="_blank">https://www.locaweb.com.br</a>), veja os serviços que eles oferecem. Qual desses serviços (em cada site) seria mais adequado para o seu site de desenvolvedor (páginas estáticas) e para a sua aplicação web?</strong></p>
+
+<p>RESPOSTA: Hospedagem de Sites, Hospedagem por Linguagem de Programação e Registro de Domínio</p>
+
+<p><strong>5) Pequisem sobre as limitações do HTTP 1.1 e como o HTTP2 vence essa limitação, cite 2 dessas limitações e suas respostas no HTTP2</strong></p>
+
+<p>RESPOSTA: No HTTP 1.1 habilitamos o GZIP para comprimir as informações que mandamos em nossas respostas. Uma boa prática que precisa ser habilitada explicitamente. No HTTP 2 GZIP é padrão e obrigatório.
+No HTTP 1.1 os headers são enviados em plain text, em cada requisição (o famoso User-Agent por exemplo). No HTTP 2 os headers são binários e comprimidos, diminuindo o volume de dados. Além disso, é possível reaproveitar os headers para as requisições seguintes. Dessa forma, só temos que mandar os cabeçalhos que mudam. Isso reduz as requisições e as deixa menos volumosas.</p>
