@@ -1,0 +1,71 @@
+.CursosGraduacao{
+	color: blue;
+}
+
+.CursosPosGraduacao{
+	color: green;
+}
+.Mestrado{
+	color: yellow;
+}
+.Doutorado{
+	color: red;
+}
+.Sub{
+	color: purple;
+}
+
+.ex1{
+font-family: verdana;
+font-size: 12px;
+text-align:center;
+line-height: 2;
+border: 2px;
+}
+
+table{
+	width: 600px;
+}
+
+td{
+	text-align: center;
+}
+
+th, td {
+    border: 1px solid black;
+	
+}	
+table{
+ border: 1px solid black;
+}
+
+.andre, .bruno{
+	background-color: #DCDCDC;
+}
+.aprovado{
+	color: green;
+}
+.reprovado{
+	color: red;
+}
+
+.Lorem{
+	text-align: right;
+	    width: 171px;
+}
+
+.tabela{
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+ 
+}
+.imagem {
+    float: left;
+}
+
+.lorem1{
+	    width: 470px;
+}
