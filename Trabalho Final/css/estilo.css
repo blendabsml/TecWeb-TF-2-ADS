@@ -1,0 +1,78 @@
+body {
+	font-family: Verdana;			/* Relacionado a todas as páginas */
+	
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+ 
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+a.h4 {
+	color:inherit;					/* Relacionado a todas as páginas */
+}
+
+img.home {
+	width:173px;					/* Relacionado a todas as páginas */
+}
+
+div.menu {
+	background-color: #E0FFFF;		/* Relacionado a todas as páginas */
+	height: 124px;
+}
+
+li.listadecursos {
+	padding-left:566px				/* Relacionado a todas as páginas */
+}
+
+li.noticias {
+	padding-left:18px;				/* Relacionado a todas as páginas */
+}
+li.diciplinas {
+	padding-left:18px;				/* Relacionado a todas as páginas */
+}
+li.sobrecursos {
+	padding-left:18px;				/* Relacionado a todas as páginas */
+}
+
+footer.direitos {
+	background-color:#E0FFFF; 		/* Relacionado a todas as páginas */
+}
+
+ul.padding {
+	padding-left:369px;				/* Relacionado a página Homepage */
+}
+
+img.bb {
+	width:347px;					/* Relacionado a página Homepage */
+}
+
+img.cc {
+	width:347px; 
+	margin-left:48px; 				/* Relacionado a página Homepage */
+	height:347px;
+}
+
+img.mm {
+	width:347px; 					/* Relacionado a página Homepage */
+	margin-left:48px;
+}
+
+a.corlink {
+	color:inherit;					/* Relacionado a ListaCursos */
+}
