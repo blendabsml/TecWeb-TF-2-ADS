@@ -39,7 +39,7 @@ img.home {
 }
 
 div.menu {
-	background-color: #f4f4f4;		/* Relacionado a todas as páginas */
+	background-color: #d4d4d4;		/* Relacionado a todas as páginas */
 	height: auto;
 	width:100%;
 	margin:auto;
@@ -74,11 +74,11 @@ li.sobrecursos {
 }
 
 footer {
-	background-color:#303030; 		/* Relacionado a todas as páginas */
-	color: white;
-	border: 3px solid;
-	border-color: black;
-	height: 5%;
+	padding:20px;
+	margin-top:20px;
+	color:#ffffff;
+	background-color:#e8491d;
+	text-align: center;
 	background: url('../images/bg.jpg');
 	
 }
@@ -122,6 +122,17 @@ a.corlink {
 	color:inherit;					/* Relacionado a ListaCursos */
 }
 
+div.noticiatext {
+	width: 75%;
+	text-align: center;
+	float: center;
+	height: auto;
+}
+
+img.noticiasimage {
+	width: 100%;
+}
+
 @media(max-width: 1000px){
   header,
   header nav,
@@ -145,6 +156,13 @@ a.corlink {
   }
   div.conteudo {
 	  background-color: #f4f4f4;
-	  border: 1px solid black
+	  border: 1px solid black;
+  }	
+  div.sobre {
+	width: 70%;
+	
+  }
+  div.menu {
+	  background-color: d4d4d4;
   }
   
