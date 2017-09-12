@@ -96,8 +96,12 @@ div.sobre {
 	
 }
 
-ul.alunos {
-	width: 70%;
+ul.corpo {
+	width: 75%;
+}
+
+.cursos {
+	width: 90%;
 }
 
 img.bb {
@@ -163,5 +167,8 @@ img.noticiasimage {
   }
   div.menu {
 	  background-color: d4d4d4;
+  }
+  .cursos {
+	  width: 100%;
   }
   
