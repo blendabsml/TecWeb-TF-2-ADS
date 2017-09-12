@@ -98,6 +98,7 @@ div.sobre {
 
 ul.corpo {
 	width: 75%;
+	text-align: justify;
 }
 
 .cursos {
@@ -137,6 +138,7 @@ img.noticiasimage {
 	width: 100%;
 }
 
+
 @media(max-width: 1000px){
   header,
   header nav,
@@ -171,4 +173,5 @@ img.noticiasimage {
   .cursos {
 	  width: 100%;
   }
+  
   
