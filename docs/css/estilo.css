@@ -1,0 +1,177 @@
+﻿body {
+	font: 1em/1.5 Verdana, Helvetica,sans-serif;
+	padding:0;
+	margin:0;
+	overflow: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+ 
+}
+
+div.menu li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+	text-transform:uppercase;
+}
+
+.banner {
+	width: 100%;
+}
+
+a.h4 {
+	color:inherit;					/* Relacionado a todas as páginas */
+}
+
+img.home {
+	width:50%;					/* Relacionado a todas as páginas */
+}
+
+div.menu {
+	background-color: #d4d4d4;		/* Relacionado a todas as páginas */
+	height: auto;
+	width:100%;
+	margin:auto;
+
+}
+
+header{
+  background:#35424a;
+  color:#black;
+  min-height:70px;
+  border-bottom:#35424a 3px solid;
+}
+
+header nav{
+  float:center;
+  margin-top:10px;
+  font-size: 0.9em;
+}
+
+li.listadecursos {
+					/* Relacionado a todas as páginas */
+}
+
+li.noticias {
+	padding-left:18px;				/* Relacionado a todas as páginas */
+}
+li.diciplinas {
+	padding-left:18px;				/* Relacionado a todas as páginas */
+}
+li.sobrecursos {
+	padding-left:18px;				/* Relacionado a todas as páginas */
+}
+
+footer {
+	padding:20px;
+	margin-top:20px;
+	color:#ffffff;
+	background-color:#e8491d;
+	text-align: center;
+	background: url('../images/bg.jpg');
+	
+}
+
+ul.padding {
+	padding-left:369px;				/* Relacionado a página Homepage */
+}
+
+div.text {
+	text-align: justify;
+}
+
+div.sobre {
+	width: 50%;
+	
+}
+
+ul.corpo {
+	width: 75%;
+	text-align: justify;
+}
+
+.cursos {
+	width: 90%;
+}
+
+img.bb {
+	width:50%;						/* Relacionado a página Homepage */
+	border-radius: 8px;
+	width: 30%;
+}
+
+img.cc {
+	width:50%; 						/* Relacionado a página Homepage */
+	border-radius: 8px;
+	width: 30%;
+}
+
+img.mm {
+	width:50%;						/* Relacionado a página Homepage */
+	border-radius: 8px;
+	width: 30%;
+}
+
+a.corlink {
+	color:inherit;					/* Relacionado a ListaCursos */
+}
+
+div.noticiatext {
+	width: 75%;
+	text-align: center;
+	float: center;
+	height: auto;
+}
+
+img.noticiasimage {
+	width: 100%;
+}
+
+
+@media(max-width: 1000px){
+  header,
+  header nav,
+  header nav li{
+    float:none;
+    width:100%;
+	line-height:0;
+	height: 50%;
+  }
+  img.home {
+	  float: center;
+	  width: 250px;
+  }
+  li.listadecursos, 
+  li.noticias, 
+  li.diciplinas, li.sobrecursos{
+	  background-color: #636363;
+	  color: white;
+	  border: 1px solid black;
+	  background: url('../images/bg.jpg');
+  }
+  div.conteudo {
+	  background-color: #f4f4f4;
+  }	
+  div.sobre {
+	width: 70%;
+	
+  }
+  div.menu {
+	  background-color: d4d4d4;
+  }
+  .cursos {
+	  width: 100%;
+  }
+  
+  
