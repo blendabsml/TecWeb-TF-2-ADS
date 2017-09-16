@@ -169,6 +169,15 @@ img.noticiasimage {
 	padding-right:20px;
 }
 
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    width: 95%;
+}
+
+.flex-item {
+    height: 100%;
+}
 
 @media(max-width: 1000px){
   header,
