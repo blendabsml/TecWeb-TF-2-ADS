@@ -68,19 +68,6 @@ header nav{
   font-size: 0.9em;
 }
 
-li.listadecursos {
-					/* Relacionado a todas as páginas */
-}
-
-li.noticias {
-	padding-left:18px;				/* Relacionado a todas as páginas */
-}
-li.diciplinas {
-	padding-left:18px;				/* Relacionado a todas as páginas */
-}
-li.sobrecursos {
-	padding-left:18px;				/* Relacionado a todas as páginas */
-}
 
 footer {
 	padding:20px;
@@ -169,6 +156,16 @@ img.noticiasimage {
 	padding-right:20px;
 }
 
+.flex-item {
+    width: 80%;
+    height: 350px;
+    margin: 10px;
+	overflow: auto;
+	text-align: justify;
+	padding-left:20px;
+	padding-right:20px;
+}
+
 .flex-container {
     display: -webkit-flex;
     display: flex;
@@ -179,7 +176,7 @@ img.noticiasimage {
     height: 100%;
 }
 
-@media(max-width: 1000px){
+@media(max-width: 755px){
   header,
   header nav,
   header nav li{
@@ -194,7 +191,7 @@ img.noticiasimage {
   }
   li.listadecursos, 
   li.noticias, 
-  li.diciplinas, li.sobrecursos{
+  li.diciplinas, li.sobrecursos, li.contato{
 	  background-color: #636363;
 	  color: white;
 	  border: 1px solid black;
