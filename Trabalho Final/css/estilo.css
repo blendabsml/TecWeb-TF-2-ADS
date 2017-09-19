@@ -280,5 +280,10 @@ li.flex-container {
  .formularii2 {
 	width: 80%;
  }
+ a.h4 {
+	color:inherit;
+	height: 3px;
+	padding-top: 0px;
+}
  
 }
