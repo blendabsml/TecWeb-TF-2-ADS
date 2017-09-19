@@ -15,7 +15,7 @@
 
 .fundo3 {
 	background-color:white;
-	width:50%;
+	width:70%;
 	min-height: 350px;
 	box-shadow: -10px 10px 20px #888888;
 }
@@ -217,6 +217,11 @@ li.flex-container {
 	height: 20px;
 }
 
+.direita {
+	width: 250px;
+	height: 100px;
+}
+
 @media(max-width: 755px){
   header,
   header nav,
@@ -284,6 +289,6 @@ li.flex-container {
 	color:inherit;
 	height: 3px;
 	padding-top: 0px;
- }
+}
  
 }
